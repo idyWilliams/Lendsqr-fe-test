@@ -1,7 +1,8 @@
+import NavBar from "../../components/navbar/NavBar";
 import "./DashboardLayout.scss";
 
 const DashboardLayout = () => {
-  return <h1>Dashboard</h1>;
+  return <NavBar />;
 };
 
 export default DashboardLayout;

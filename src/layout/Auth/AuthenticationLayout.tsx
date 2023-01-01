@@ -22,7 +22,7 @@ const AuthenticationLayout: React.FC<Props> = ({
       <div className="AuthLayout" style={{ backgroundColor }}>
         <section className="left-section">
           <div className="logo">
-            <Logo />
+            <Logo height="36" width="170px" />
           </div>
         </section>
         <section className="right-section">
