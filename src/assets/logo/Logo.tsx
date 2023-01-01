@@ -3,11 +3,7 @@ import { SvgIconConstituentValues } from "../types";
 
 export interface SvgIcon extends FC<SvgIconConstituentValues> {}
 
-const Logo = ({
-  height = "36",
-  width = "170px",
-  ...props
-}: React.SVGProps<SVGAElement>) => {
+const Logo = ({ height, width, ...props }: React.SVGProps<SVGAElement>) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
