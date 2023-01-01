@@ -1,0 +1,116 @@
+// @import url('/src/assets/avenir_ff/AvenirLTStd-Book.otf');
+
+
+
+.login {
+    .title {
+        .header {
+            font-family: 'Avenir Next',
+                sans-serif;
+            color: #213F7D;
+            font-weight: 700;
+        }
+    }
+
+
+    .email-wrapper {
+        margin-bottom: 10px;
+
+        .email-input {
+            appearance: none;
+            position: relative;
+            padding: 14px;
+            border-radius: 0.375rem;
+            outline-color: #39cdcc;
+            display: block;
+            border: 1px solid #545F7D26;
+            width: 100%;
+            --tw-text-opacity: 1;
+            color: rgb(17 24 39 / var(--tw-text-opacity));
+
+            &:focus {
+                z-index: 10;
+                border-color: #667eea;
+
+                &::after {
+                    box-shadow: 0 0 0 3px #667eea;
+                }
+            }
+
+            &::placeholder {
+                color: #545F7D;
+                opacity: 60%;
+
+            }
+        }
+    }
+
+    .password-wrapper {
+        margin-bottom: 10px;
+
+        .password-input {
+            appearance: none;
+            position: relative;
+            padding: 14px;
+            border-radius: 0.375rem;
+            outline-color: #39cdcc;
+            display: block;
+            border: 1px solid #545F7D26;
+            width: 100%;
+            --tw-text-opacity: 1;
+            color: rgb(17 24 39 / var(--tw-text-opacity));
+
+            &:focus {
+                z-index: 10;
+                border-color: #667eea;
+
+                &::after {
+                    box-shadow: 0 0 0 3px #667eea;
+                }
+            }
+
+            &::placeholder {
+                color: #545F7D;
+                opacity: 60%;
+
+            }
+        }
+    }
+
+    // font-family: ;
+    // display: flex;
+    // flex-direction: column;
+    // align-items: center;
+    // justify-content: center;
+    // position: relative;
+    // width: 100%;
+
+
+
+    // .password-input {
+    //     border-radius: 4px;
+    //     outline-color: #39cdcc;
+    //     display: block;
+    //     border: 1px solid #545F7D26;
+    //     width: 100%;
+    //     padding: 14px;
+
+    //     &::placeholder {
+    //         color: #545F7D;
+    //         opacity: 60%;
+
+    //     }
+    // }
+
+
+
+    button {
+
+        width: 447px;
+        padding: 14px;
+        font-size: 16px;
+        background-color: #39cdcc;
+        color: white;
+        border: none;
+    }
+}

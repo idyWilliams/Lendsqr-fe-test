@@ -1,0 +1,110 @@
+.auth-wrapper {
+  width: 100%;
+  min-height: 100vh;
+
+  .AuthLayout {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100%;
+    overflow: hidden;
+    width: 100%;
+
+    section {
+      flex: 1;
+      height: 100vh;
+
+    }
+
+    .left-section {
+      background-image: url('../../assets/images/pablo-sign-in.png');
+      background-repeat: no-repeat;
+      background-position: center;
+      background-color: #fff;
+      -webkit-box-shadow: inset -5px 0px 2px -1px rgba(252, 252, 252, 1);
+      -moz-box-shadow: inset -5px 0px 2px -1px rgba(252, 252, 252, 1);
+      box-shadow: inset -5px 0px 2px -1px rgba(252, 252, 252, 1);
+
+
+      .logo {
+        padding: 60px 80px;
+      }
+
+
+    }
+
+    .right-section {
+      background-color: #fff;
+      width: 100%;
+      min-height: 100vh;
+      overflow: hidden;
+
+      .login-wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        // padding: 3rem 1rem;
+        min-height: 100%;
+
+
+        .case {
+          // max-width: 447px;
+          // width: 100%;
+
+        }
+
+        @media (min-width: 768px) {
+          padding: 1.5rem;
+          overflow: hidden;
+
+          .case {
+            max-width: 447px;
+            width: 100%;
+
+          }
+
+        }
+
+      }
+
+      @media (min-width: 768px) {
+
+        // width: 60%;
+
+      }
+
+      @media (min-width: 1024px) {
+        padding: 0 2rem;
+      }
+
+
+    }
+
+    @media (max-width: 768px) {
+      // flex-direction: column;
+      padding: 1.5rem;
+      width: 100%;
+
+      section {
+        // width: 100%;
+        text-align: center;
+      }
+
+      .left-section {
+        display: none;
+      }
+    }
+
+    // @media (min-width: 1024px) {
+    //   padding: 0 2rem;
+    // }
+  }
+
+  @media (min-width: 768px) {
+    // width: 100%;
+    overflow: hidden;
+  }
+
+
+
+}
