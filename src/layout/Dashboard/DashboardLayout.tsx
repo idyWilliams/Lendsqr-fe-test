@@ -1,7 +1,7 @@
 import "./DashboardLayout.scss";
 
 const DashboardLayout = () => {
-  return <div className="dashboard">DashboardLayout</div>;
+  return <h1>Dashboard</h1>;
 };
 
 export default DashboardLayout;
