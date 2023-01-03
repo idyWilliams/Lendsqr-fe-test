@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700&display=swap");
+@import "../../breakpoint/breakpoint.scss";
+
+
+.sidebar {
+    position: fixed;
+    z-index: 2;
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    padding-top: 2rem;
+
+
+    width: 15rem;
+    height: 100vh;
+    overflow: scroll;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.04);
+    font-family: "Work Sans", sans-serif;
+    font-weight: 300;
+    border-right: 0.5px solid rgb(230, 227, 227);
+    min-height: 100vh;
+    background-color: white;
+
+
+    // @media (max-width: 768px) {
+    //     display: none;
+    // }
+
+    .top {
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .logo {
+            font-size: 20px;
+            font-weight: bold;
+            color: #6439ff;
+        }
+    }
+
+    .center {
+        // padding-left: 10px;
+
+        ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+
+            .title {
+                font-size: 12px;
+                font-weight: 500;
+                color: #545F7D;
+                padding-left: 16px;
+                margin-top: 15px;
+                margin-bottom: 5px;
+            }
+
+            .span {
+                padding-top: 1rem;
+            }
+
+            li {
+                display: flex;
+                align-items: center;
+                padding: 8px 16px;
+                cursor: pointer;
+
+                &:hover {
+                    background-color: #F3FCFC;
+                    border-left: 3px solid #39CDCC;
+
+                    span {
+                        color: #213F7D;
+                    }
+                }
+
+                .icon {
+                    font-size: 18px;
+                    color: #7451f8;
+                }
+
+                span {
+                    font-size: 13px;
+                    line-height: 1.5;
+                    font-weight: 400;
+                    color: #7A8CB1;
+                    margin-left: 10px;
+                }
+
+
+            }
+        }
+    }
+
+    .bottom {
+        margin-top: 2rem;
+        padding-bottom: 5rem;
+
+        ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+
+            .title {
+                font-size: 12px;
+                font-weight: 500;
+                color: #545F7D;
+                padding-left: 16px;
+                margin-top: 15px;
+                margin-bottom: 5px;
+            }
+
+            .span {
+                padding-top: 1rem;
+            }
+
+            li {
+                display: flex;
+                align-items: center;
+                padding: 8px 16px;
+                cursor: pointer;
+
+                &:hover {
+                    background-color: #F3FCFC;
+                    border-left: 3px solid #39CDCC;
+
+                    span {
+                        color: #213F7D;
+                    }
+                }
+
+                .icon {
+                    font-size: 18px;
+                    color: #7451f8;
+                }
+
+                span {
+                    font-size: 13px;
+                    line-height: 1.5;
+                    font-weight: 400;
+                    color: #7A8CB1;
+                    margin-left: 10px;
+                }
+            }
+        }
+
+        p {
+            font-size: 12px;
+            font-weight: 500;
+            color: #545F7D;
+            padding-left: 16px;
+            margin-top: 15px;
+            margin-bottom: 5px;
+        }
+    }
+}

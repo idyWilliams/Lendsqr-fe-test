@@ -14,11 +14,7 @@ const NavBar = () => {
         <div className="nav">
           <div className="topLeft">
             <span className="logo">
-              <Logo
-                height="35px"
-                width="
-115.37px"
-              />
+              <Logo height="35px" width="115.37px" />
             </span>
           </div>
           <div className="search_wrapper">

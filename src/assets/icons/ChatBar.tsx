@@ -7,8 +7,8 @@ const ChatBar = ({ height, width, ...props }: React.SVGProps<SVGAElement>) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      width={width}
-      height={height}
+      width="16"
+      height="16"
       viewBox="0 0 16 16"
       fill="none"
     >

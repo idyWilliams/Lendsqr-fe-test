@@ -11,8 +11,8 @@ const BargeIcon = ({
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      width={width}
-      height={height}
+      width="16"
+      height="16"
       viewBox="0 0 16 16"
       fill="none"
     >
@@ -29,7 +29,7 @@ const BargeIcon = ({
       </g>
       <defs>
         <clipPath id="clip0_30106_670">
-          <rect width={width} height={height} fill="white" />
+          <rect width="16" height="16" fill="white" />
         </clipPath>
       </defs>
     </svg>
