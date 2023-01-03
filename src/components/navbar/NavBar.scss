@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter&family=Work+Sans&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700&display=swap");
 @import "../../breakpoint/breakpoint.scss";
 
 $breakpoints: (
@@ -22,6 +22,16 @@ $breakpoints: (
         display: flex;
         align-items: center;
         justify-content: space-between;
+
+
+        @include media("<=phone") {
+
+            padding: 0px 10px;
+        }
+
+        @include media("<=653px") {
+            padding: 0px 10px;
+        }
     }
 
     .nav {
@@ -35,7 +45,6 @@ $breakpoints: (
             align-items: center;
 
             .search {
-
                 display: flex;
                 align-items: center;
                 border: 0.5px solid #E3E7EE;
@@ -54,7 +63,9 @@ $breakpoints: (
                     &::placeholder {
                         font-family: 'Work Sans', sans-serif;
                         font-size: 13px;
+                        font-weight: lighter !important;
                         color: #D2D5DD;
+                        opacity: 0.5;
                     }
 
                     @include media("<=tablet") {
@@ -67,13 +78,10 @@ $breakpoints: (
 
                 @include media("<=425px") {
                     display: none;
-
                 }
 
                 @include media("<=653px") {
                     display: none;
-
-
 
                 }
             }
@@ -92,17 +100,18 @@ $breakpoints: (
                 @include media("<=phone") {
                     padding: 0px;
                     // border-radius: 50%;
-                    height: 30px;
-                    width: 30px;
-                    margin-right: 4px;
+                    height: 20px;
+                    width: 20px;
+                    margin-right: 5px;
 
                 }
 
                 @include media("<=653px") {
                     padding: 0px;
                     border-radius: 50%;
-                    height: 40px;
-                    width: 40px;
+                    height: 25px;
+                    width: 25px;
+                    margin-right: 5px;
 
 
 
@@ -133,6 +142,17 @@ $breakpoints: (
             color: #213F7D;
             margin-right: 16px;
             user-select: none;
+
+            @include media("<=phone") {
+                margin-right: 5px;
+
+            }
+
+            @include media("<=653px") {
+
+                margin-right: 5px;
+
+            }
         }
 
         .topbarIconContainer {
@@ -153,6 +173,17 @@ $breakpoints: (
                 justify-content: center;
                 font-size: 10px;
             }
+
+            @include media("<=phone") {
+                margin-right: 5px;
+
+            }
+
+            @include media("<=653px") {
+
+                margin-right: 5px;
+
+            }
         }
 
         .topAvatar {
@@ -172,7 +203,8 @@ $breakpoints: (
                 font-family: 'Work Sans', sans-serif;
                 color: #213F7D;
                 line-height: 18.77px;
-                font-weight: bold;
+                font-weight: 500;
+                font-size: 16px;
                 user-select: none;
             }
         }
